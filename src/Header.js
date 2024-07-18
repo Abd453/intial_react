@@ -1,16 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header>
+      <h1>Groceries List</h1>
+    </header>
+  );
+};
 
-export default Header
-s
+export default Header;
 
-
-{/**
+{
+  /**
     // In this created file 
     1. I have pressed ctrl + alt + R and the pressed the
      "rafce" then it generated the code by it self.
@@ -18,4 +19,5 @@ s
     3. and then i go to the App.js
     4. then I import  "import Header from './Header'; "
     5.    
-    */}
+    */
+}
